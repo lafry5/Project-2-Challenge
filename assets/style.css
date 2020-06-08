@@ -110,6 +110,14 @@
     display: flex;
     justify-content: space-between;
   }
+  .flex-grid-two-thirds {
+      display: flex;
+      justify-content: space-between;
+  }
+  .flex-grid-two-thirds .col {
+      width: 66%;
+      margin: 20px;
+    }
   .flex-grid-thirds .col {
     width: 32%;
     margin: 20px;
