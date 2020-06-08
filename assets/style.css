@@ -113,6 +113,8 @@
   .flex-grid-two-thirds {
       display: flex;
       justify-content: space-between;
+      flex: wrap;
+      height: 100%vh;
   }
   .flex-grid-two-thirds .col {
       width: 66%;
