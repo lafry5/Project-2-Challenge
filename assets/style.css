@@ -4,6 +4,8 @@
     box-sizing: border-box;
   }
   
+ /* Header */
+
   header {
     padding: 20px 35px;
     background-color: black;
@@ -75,6 +77,13 @@
     flex: wrap;
     justify-content: space-between;
 }
+
+ /* Section Titles */
+
+ .section-title {
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
 
  /* Contact section */ 
 
