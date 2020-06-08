@@ -46,7 +46,7 @@
 
   .hero {
     width: 100vw;
-    display: flex;
+    display: flex; /*should this be inline */
     background-color: darkgray;
     justify-content: center;
     flex-wrap: wrap;
@@ -63,11 +63,15 @@
     border: #dddddd 2px solid; 
   }
 
-  /* Set flex 
+  Set flex 
 
-  .flex-row {
+ .flex-row {
     display: flex;
     flex: wrap;
     justify-content: space-between;
-}*/
+}
+
+.software-title {
+    display: inline;
+}
   
