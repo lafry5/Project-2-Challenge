@@ -47,16 +47,27 @@
   .hero {
     width: 100vw;
     display: flex;
-    background-color: lightgray;
+    background-color: darkgray;
     justify-content: center;
     flex-wrap: wrap;
   }
 
   /* Set border around text */
 
-  
-  .borderstyle {
-    border-style:solid;
-    border-color:#287EC7;
+    .borderstyle {
+    padding = 2px 6px 4px 6px;
+    color: #39a6b2;
+    /*border-style:solid;
+    border-color: #287EC7;*/
+    background-color: lightgray;
+    border: #dddddd 2px solid; 
   }
+
+  /* Set flex 
+
+  .flex-row {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}*/
   
