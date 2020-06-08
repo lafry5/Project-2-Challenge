@@ -19,6 +19,7 @@
     font-size: 36px;
     color: #39a6b2;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   header a {
@@ -61,13 +62,18 @@
     color: #39a6b2;
     background-color: lightgray;
     border: #dddddd 2px solid; 
+   }
+
+  a {
+      font-family: Arial, Helvetica, sans-serif;
   }
 
   .software-title {
     padding = 2px 6px 4px 6px;
     color: #39a6b2;
     background-color: lightgray;
-    border: #dddddd 2px solid; 
+    border: #dddddd 2px solid;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
  /* Set flex */ 
@@ -76,6 +82,7 @@
     display: flex;
     flex: wrap;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  /* Section Titles */
