@@ -75,4 +75,12 @@
     flex: wrap;
     justify-content: space-between;
 }
+
+ /* Contact section */ 
+
+.contactsection p {
+    display: inline;
+    justify-content: space-around;
+    font-size: 20px;
+}
   
