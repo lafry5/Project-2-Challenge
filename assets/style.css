@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root {
+    --header-bg-color: black;
+    --main-font-color: #39a6b2;
+    --section-color: 15px; /*TBD*/
+  }
   
  /* Header */
 
   header {
     padding: 20px 35px;
-    background-color: black;
+    background-color: var(--header-bg-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -17,14 +23,14 @@
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #39a6b2;
+    color: var(--main-font-color);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   header a {
     text-decoration: none;
-    color: #39a6b2;
+    color: var(--main-font-color);
   }
   
   header nav {
@@ -59,7 +65,7 @@
 
   .borderstyle {
     padding = 2px 6px 4px 6px;
-    color: #39a6b2;
+    color: var(--main-font-color);
     background-color: lightgray;
     border: #dddddd 2px solid; 
    }
@@ -70,7 +76,7 @@
 
   .software-title {
     padding = 2px 6px 4px 6px;
-    color: #39a6b2;
+    color: var(--main-font-color);
     background-color: lightgray;
     border: #dddddd 2px solid;
     font-family: Arial, Helvetica, sans-serif; 
