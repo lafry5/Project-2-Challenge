@@ -66,7 +66,7 @@
     margin: 0;
   }/*
 
-  /* Set border around text */
+  /* Set border around text in header and sub-title*/
 
   .borderstyle {
     padding = 2px 6px 4px 6px;
@@ -104,7 +104,7 @@
      font-family: Arial, Helvetica, sans-serif;
  }
 
- /* Grid section */
+ /* Grid in Work section */
 
  .flex-grid {
     display: flex;
@@ -124,6 +124,8 @@
       /*justify-content: right;*/
       align-content: right;
       flex: wrap;
+    /*  margin: 20px;
+      padding: 20px; */
   } 
   /*.flex-grid-two-thirds .col {
       width: 66%;
@@ -158,7 +160,22 @@
     padding: 20px;
   }
 
- /* Contact section */ 
+  /* Can't get this shadow working
+  .col .flex-grid-thirds .some-class { 
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+  } */
+
+/* Hover in Work section needs updated */
+
+/*li:hover {
+  color: purple;
+  font-weight: 900;
+  list-style-type: none;
+  text-shadow: 2px 2px lightpink;
+  text-decoration: underline; 
+}*/ 
+
+/* Contact section */ 
 
 .contactsection p {
     display: inline;
