@@ -61,6 +61,11 @@
     flex-wrap: wrap;
   }
 
+ /* .software-title {
+    font-size: 24px;
+    margin: 0;
+  }/*
+
   /* Set border around text */
 
   .borderstyle {
@@ -80,7 +85,8 @@
     background-color: lightgray;
     border: #dddddd 2px solid;
     font-family: Arial, Helvetica, sans-serif; 
-}
+    width: 100vw%;
+}*/
 
  /* Set flex */ 
 
