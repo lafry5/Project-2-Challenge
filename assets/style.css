@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 20;
     box-sizing: border-box;
   }
 
@@ -113,13 +113,13 @@
     margin: 20px;
     padding: 20px;
   }
- /* .flex-grid-two-thirds {
+.flex-grid-two-thirds {
       display: flex;
-      justify-content: space-between;
+      /*justify-content: right;*/
+      align-content: right;
       flex: wrap;
-      height: 100%vh;
   } 
-  .flex-grid-two-thirds .col {
+  /*.flex-grid-two-thirds .col {
       width: 66%;
   } */
   .flex-grid-thirds .col {
