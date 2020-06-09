@@ -109,13 +109,14 @@
   .flex-grid-thirds {
     display: flex;
     justify-content: space-between;
+    flex: wrap;
   }
-  .flex-grid-two-thirds {
+ /* .flex-grid-two-thirds {
       display: flex;
       justify-content: space-between;
       flex: wrap;
       height: 100%vh;
-  }
+  } */
   .flex-grid-two-thirds .col {
       width: 66%;
   }
@@ -144,7 +145,7 @@
   .flex-grid { 
      margin: 0 0 20px 0; 
   }
-  .col {
+  #Work .section-title .col {
     background:lightgray;
     padding: 20px;
   }
