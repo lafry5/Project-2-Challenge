@@ -108,18 +108,20 @@
   }
   .flex-grid-thirds {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: wrap;
+    margin: 20px;
+    padding: 20px;
   }
  /* .flex-grid-two-thirds {
       display: flex;
       justify-content: space-between;
       flex: wrap;
       height: 100%vh;
-  } */
+  } 
   .flex-grid-two-thirds .col {
       width: 66%;
-  }
+  } */
   .flex-grid-thirds .col {
     width: 32%;
     margin: 20px;
