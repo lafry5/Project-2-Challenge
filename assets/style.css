@@ -61,10 +61,6 @@
     flex-wrap: wrap;
   }
 
- /* .software-title {
-    font-size: 24px;
-    margin: 0;
-  }/*
 
   /* Set border around text in header and sub-title*/
 
@@ -150,35 +146,16 @@
   border: #dddddd 2px solid;
   background-image: url(./Runbuddy.JPG);
 }
- /*.flex-grid {
-    display: flex;
-  }
-  .flex-grid .col {
-    flex: 1;
-  }
+/*
   .flex-grid-thirds {
     display: flex;
     justify-content: space-around;
     flex: wrap;
     margin: 20px;
     padding: 20px;
-  }
-.flex-grid-two-thirds {
-      display: flex;
-      /*justify-content: right;*/
-   /*   align-content: right;
-      flex: wrap;
-    /*  margin: 20px;
-      padding: 20px; */
-  } 
-  /*.flex-grid-two-thirds .col {
-      width: 66%;
-  } */
-/*  .flex-grid-thirds .col {
-    width: 32%;
-    margin: 20px;
-  }
-  
+  }*/
+
+  /*
   @media (max-width: 400px) {
     .flex-grid,
     .flex-grid-thirds {
@@ -188,22 +165,9 @@
         margin: 0 0 10px 0;
       }
     }
-  }
+  }*/
   
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    padding: 20px;
-  }
-  .flex-grid { 
-     margin: 0 0 20px 0; 
-  }
-  #Work .section-title .col {
-    background:lightgray;
-    padding: 20px;
-  } */
-
+  
   /* Can't get this shadow working
   .col .flex-grid-thirds .some-class { 
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
