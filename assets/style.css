@@ -59,13 +59,12 @@
 
   .hero {
     width: 100vw;
-    display: flex; /*should this be inline */
+    display: flex;
     background-image: url("./FB_IMG_1588112523604.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 25% 25%;
     height: 50vw;
-   /* background-color: darkgray; */
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
@@ -130,7 +129,6 @@ p {
 
   .flex-row {
     display: flex;
-   /* flex: wrap; */
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -152,25 +150,10 @@ p {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 2px 6px 4px 6px;
-  /* color: var(--main-font-color); */
   font-family: Arial, Helvetica, sans-serif; 
   width: 100vw; 
   margin: 20px;
 }
-
-
-/*.one:hover {  
-  opacity: 0.5;
-}
-
-.one {
-  grid-column: 1 / 1;
-  grid-row: 1 / 1;
-  margin-right: 100px;
- /* font-size: 50px; 
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--header-bg-color); */
- /* text-align: right; /* right-justify the header */
 
 .one:hover {  
   opacity: 0.5;
@@ -220,46 +203,8 @@ p {
   border: #dddddd 2px solid;
   background-image: url(./Runbuddy.JPG);
 }
-/*
-  .flex-grid-thirds {
-    display: flex;
-    justify-content: space-around;
-    flex: wrap;
-    margin: 20px;
-    padding: 20px;
-  }*/
 
-  /*
-  @media (max-width: 400px) {
-    .flex-grid,
-    .flex-grid-thirds {
-      display: block;
-      .col {
-        width: 100%;
-        margin: 0 0 10px 0;
-      }
-    }
-  }*/
-  
-  
-  /* Can't get this shadow working
-  .col .flex-grid-thirds .some-class { 
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
-  } */
-
-/* Hover in Work section needs updated */
-
-/*li:hover {
-  color: purple;
-  font-weight: 900;
-  list-style-type: none;
-  text-shadow: 2px 2px lightpink;
-  text-decoration: underline; 
-}*/ 
-
-
-
-/* Contact section ...need to update this*/ 
+/* Contact section */ 
 
 .grid-container2 {
   display: grid;
