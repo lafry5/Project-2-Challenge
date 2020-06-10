@@ -110,7 +110,7 @@ p {
 .grid-item {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
-  margin-right: 100px;
+  margin-right: 100px; 
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -152,7 +152,7 @@ p {
   margin: 20px;
 }
 
-.one:hover {  /*repeat this */
+.one:hover {  
   opacity: 0.5;
 }
 
@@ -162,11 +162,19 @@ p {
   border: #dddddd 2px solid;
   background-image: url(./flower_with_green_art_background_vector_graphic_art_572102.jpg);
 }
+
+.two:hover {  
+  opacity: 0.5;
+}
 .two { 
   grid-column: 4;
   grid-row: 1;
   border: #dddddd 2px solid;
   background-image: url(./retro_rose_pattern_241386.jpg);
+}
+
+.three:hover {  
+  opacity: 0.5;
 }
 .three {
   grid-column: 4;
@@ -174,11 +182,17 @@ p {
   border: #dddddd 2px solid;
   background-image: url(./abstract_smooth_wave_background_vector_grapihic_art_569579.jpg);
 }
+.four:hover {  
+  opacity: 0.5;
+}
 .four {
   grid-column: 2;
   grid-row: 3;
   border: #dddddd 2px solid;
   background-image: url(./vintage_flower_and_birds_background_art_vector_549965.jpg);
+}
+.five:hover {  
+  opacity: 0.5;
 }
 .five {
   grid-column: 3;
@@ -235,7 +249,7 @@ p {
 .grid-item2 {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
-  margin-right: 100px;
+  margin-right: 100px; 
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -243,6 +257,6 @@ p {
 .grid-item-info2 {
   grid-column: 2 / 4;
   grid-row: 1 / 1;
-  justify-content: space-between;
+ /* justify-content: space-between;*/
 }
   
