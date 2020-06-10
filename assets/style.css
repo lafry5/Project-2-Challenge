@@ -116,6 +116,8 @@ p {
 }
 
 .grid-item-info {
+  display: flex;
+  flex: wrap;
   grid-column: 2 / 4;
   grid-row: 1 / 1;
 }
@@ -128,7 +130,7 @@ p {
 
   .flex-row {
     display: flex;
-    flex: wrap;
+   /* flex: wrap; */
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
