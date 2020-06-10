@@ -120,6 +120,10 @@ p {
   grid-row: 1 / 1;
 }
 
+.grid-item h2 {
+  text-align: right; /* right-justify the header */
+}
+
  /* Set flex */ 
 
   .flex-row {
@@ -146,11 +150,25 @@ p {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 2px 6px 4px 6px;
-  color: var(--main-font-color);
+  /* color: var(--main-font-color); */
   font-family: Arial, Helvetica, sans-serif; 
-  width: 100vw; /* this was in the software title */
+  width: 100vw; 
   margin: 20px;
 }
+
+
+/*.one:hover {  
+  opacity: 0.5;
+}
+
+.one {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  margin-right: 100px;
+ /* font-size: 50px; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--header-bg-color); */
+ /* text-align: right; /* right-justify the header */
 
 .one:hover {  
   opacity: 0.5;
@@ -249,14 +267,20 @@ p {
 .grid-item2 {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
-  margin-right: 100px; 
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item2 h2 {
+  text-align: left; /* left-justify the header */
 }
 
 .grid-item-info2 {
   grid-column: 2 / 4;
   grid-row: 1 / 1;
- /* justify-content: space-between;*/
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  font-size: 20px;
 }
   
