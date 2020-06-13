@@ -2,7 +2,7 @@
 
 Sample screenshot of the website from the second challenge:
 
-![screenshot] (assets/Sample_screenshot1.JPG)
+![screenshot](./assets/Sample_screenshot1.JPG)
 
 
 REPOSITORY TITLE: lafry5/Project-2-Challenge
