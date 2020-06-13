@@ -45,7 +45,20 @@ Contributing:
 Description:
     The top of the web-page contains the header, a profile photo and links to the main sections of the web-page: About Me, Work and Contact Me. The following is a screenshot of the top of the web-page.
 
-    ![screenshot](assets/Sample_screenshot1.JPG)
+    ![screenshot](/assets/Sample_screenshot1.jpg)
+
+    The next section is the About Me section. It contains an overview of my educational background, as well as my experience thus far in coding.
+
+    ![screenshot](/assets/AboutMe_screenshot.jpg)
+
+    The next section is the Work section. It contains a grid of spots to sample my work. There is one sample that is actually completed already and that is the Run Buddy web-site.
+
+    ![screenshot](/assets/Work_screenshot.jpg)
+    ![screenshot](/assets/Runbuddy.jpg)
+
+    The Contact Me section is the final section of the web-page.
+
+    ![screenshot](/assets/ContactMe_screenshot.jpg)
 
 
 Support:

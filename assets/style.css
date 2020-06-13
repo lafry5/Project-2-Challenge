@@ -108,7 +108,6 @@ p {
 .grid-container {
   display: grid;
   padding: 100px;
-  align-items: center;
 }
 
 .grid-item {
@@ -238,6 +237,10 @@ p {
   flex: wrap;
   justify-content: space-around;
   font-size: 20px;
+}
+
+.grid-item-info p {
+  padding-left: 20px;
 }
 
 /* On screens that are 992px or less, set the background color to light sky blue */
