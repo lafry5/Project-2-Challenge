@@ -2,7 +2,7 @@
 
 Sample screenshot of the website from the second challenge:
 
-![screenshot](assets/Sample_screenshot1.JPG)
+![screenshot] (assets/Sample_screenshot1.JPG)
 
 
 REPOSITORY TITLE: lafry5/Project-2-Challenge
@@ -46,7 +46,7 @@ Description:
     The top of the web-page contains the header, a profile photo and links to the main sections of the web-page: About Me, Work and Contact Me. The following is a screenshot of the top of the web-page.
 
     ![screenshot](assets/Sample_screenshot1.JPG)
-    
+
 
 Support:
     Reach out to me at one of the following places!
