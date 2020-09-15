@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 20;
@@ -180,7 +181,8 @@ p {
   grid-column: 3;
   grid-row: 1;
   border: #dddddd 2px solid;
-  background-image: url(./flower_with_green_art_background_vector_graphic_art_572102.jpg);
+ /* background-image: url(./flower_with_green_art_background_vector_graphic_art_572102.jpg);*/
+ background-image: url(./tech_blog.jpg);
 }
 
 .three:hover {  
